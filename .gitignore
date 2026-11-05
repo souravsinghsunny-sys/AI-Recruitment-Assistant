@@ -1,0 +1,16 @@
+# Protect API keys
+.env
+
+# Python virtual environment
+venv/
+
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Generated output files
+outputs/*.json
+
+# IDE settings
+.vscode/
+.idea/

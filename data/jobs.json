@@ -1,0 +1,26 @@
+[
+    {
+        "job_id": 201,
+        "job_title": "Python Backend Developer",
+        "required_skills": [
+            "Python",
+            "FastAPI",
+            "MySQL",
+            "Git"
+        ],
+        "minimum_experience": 2,
+        "job_description": "Looking for a Python Backend Developer who can build REST APIs, work with databases and understand backend development."
+    },
+    {
+        "job_id": 202,
+        "job_title": "Data Analyst",
+        "required_skills": [
+            "Python",
+            "Pandas",
+            "SQL",
+            "Machine Learning"
+        ],
+        "minimum_experience": 1,
+        "job_description": "Looking for a Data Analyst who can analyse data, create reports and identify useful business insights."
+    }
+]

@@ -1,0 +1,48 @@
+
+[
+  {
+    "candidate_id": 101,
+    "name": "Rahul Sharma",
+    "email": "rahul@example.com",
+    "skills": ["Python", "FastAPI", "MySQL", "Git"],
+    "experience_years": 2,
+    "education": "BCA",
+    "projects": ["Student Management System", "REST API"]
+  },
+  {
+    "candidate_id": 102,
+    "name": "Priya Verma",
+    "email": "priya@example.com",
+    "skills": ["Python", "Django", "SQL", "Pandas"],
+    "experience_years": 3,
+    "education": "B.Tech Computer Science",
+    "projects": ["Sales Dashboard", "Employee Management System"]
+  },
+  {
+    "candidate_id": 103,
+    "name": "Amit Kumar",
+    "email": "amit@example.com",
+    "skills": ["Java", "Spring Boot", "MySQL", "Git"],
+    "experience_years": 1,
+    "education": "BCA",
+    "projects": ["Library Management System"]
+  },
+  {
+    "candidate_id": 104,
+    "name": "Sneha Patel",
+    "email": "sneha@example.com",
+    "skills": ["Python", "Machine Learning", "Pandas", "SQL"],
+    "experience_years": 2,
+    "education": "MCA",
+    "projects": ["Customer Churn Prediction", "Data Analysis"]
+  },
+  {
+    "candidate_id": 105,
+    "name": "Arjun Mehta",
+    "email": "arjun@example.com",
+    "skills": ["Python", "FastAPI", "Docker", "AWS", "Git"],
+    "experience_years": 4,
+    "education": "B.Tech Information Technology",
+    "projects": ["Cloud File Storage API", "E-commerce Backend"]
+  }
+]
