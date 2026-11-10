@@ -11,24 +11,86 @@
 <body>
 
     <div class="container">
-        <h1>AI Recruitment Assistant</h1>
-        <p>Automated Candidate Screening and Evaluation</p>
 
-        <button id="runBtn">Run Recruitment Process</button>
-        <h2>Upload Candidate Resume</h2>
+        <header>
+            <h1>AI Recruitment Assistant</h1>
+            <p>Smart Candidate Screening and Evaluation</p>
+        </header>
 
-        <input type="file" id="resumeFile" accept=".pdf">
+        <section class="action-section">
+            <h2>Recruitment Process</h2>
+            <p>Screen candidates, evaluate their skills and prepare interviews.</p>
+            <button id="runBtn">Run Recruitment Process</button>
+            <div id="status"></div>
+        </section>
 
-        <button id="uploadBtn">Upload and Analyse Resume</button>
+        <section class="upload-section">
+            <h2>Upload Candidate Resume</h2>
+            <p>Upload a PDF resume for AI analysis.</p>
 
-        <div id="uploadStatus"></div>
-        <div id="uploadResult"></div>
+            <input type="file" id="resumeFile" accept=".pdf">
+            <button id="uploadBtn">Upload and Analyse Resume</button>
 
-        <div id="status"></div>
-        <div id="results"></div>
+            <div id="uploadStatus"></div>
+            <div id="uploadResult"></div>
+        </section>
+
+        <section class="upload-section">
+            <h2>Compare Two Candidate Resumes</h2>
+            <p>Upload two PDF resumes to compare candidates for a job.</p>
+
+            <label for="jobId">Select Job:</label>
+            <select id="jobId">
+                <option value="201">Python Backend Developer</option>
+                <option value="202">Data Analyst</option>
+            </select>
+
+            <br><br>
+
+            <label for="resumeFile1">First Candidate Resume:</label>
+            <input type="file" id="resumeFile1" accept=".pdf">
+
+            <br><br>
+
+            <label for="resumeFile2">Second Candidate Resume:</label>
+            <input type="file" id="resumeFile2" accept=".pdf">
+
+            <br><br>
+
+            <button id="compareBtn">Compare Resumes</button>
+
+            <div id="compareStatus"></div>
+            <div id="compareResults"></div>
+        </section>
+
+        <section class="dashboard-section">
+            <h2>Recruitment Dashboard</h2>
+
+            <div class="summary-cards">
+                <div class="summary-card">
+                    <h3 id="candidateCount">0</h3>
+                    <p>Candidates Screened</p>
+                </div>
+
+                <div class="summary-card">
+                    <h3 id="evaluationCount">0</h3>
+                    <p>Evaluations Completed</p>
+                </div>
+
+                <div class="summary-card">
+                    <h3 id="interviewCount">0</h3>
+                    <p>Interview Preparations</p>
+                </div>
+            </div>
+
+            <h2>Candidate Evaluations</h2>
+            <div id="results"></div>
+        </section>
+
     </div>
 
     <script src="script.js"></script>
+
 </body>
 
 </html>
